@@ -195,8 +195,8 @@ function spawnObstacles() {
 
 function reset(){
   gameState = PLAY;
-  gameOver.visible = true;
-  restart.visible = true;
+  gameOver.visible = false;
+  restart.visible = false;
   kangaroo.visible = true;
   kangaroo.changeAnimation("running",
                 kangaroo_running);
